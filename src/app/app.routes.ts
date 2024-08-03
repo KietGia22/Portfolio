@@ -14,5 +14,5 @@ export const routes: Routes = [
             {path: 'skill', component: SkillComponent}
         ]
     },
-    { path: '**', redirectTo: '' }
+    { path: '**', redirectTo: 'about' }
 ];

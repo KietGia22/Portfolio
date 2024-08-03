@@ -2,3 +2,23 @@
 @import '../node_modules/bootstrap/dist/css/bootstrap.css';
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb); /* Gradient xanh lạnh và dễ chịu */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* CSS cho navbar */
+.navbar {
+    width: 100%; /* Đảm bảo navbar chiếm toàn bộ chiều rộng */
+    position: absolute; /* Đặt navbar vào vị trí tuyệt đối */
+    left: 50%; /* Đẩy navbar về giữa */
+    transform: translateX(-50%); /* Căn giữa navbar theo chiều ngang */
+}
+
+
