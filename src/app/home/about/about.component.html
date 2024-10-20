@@ -1,1 +1,26 @@
-<p>about works!</p>
+<div class="greet-main" id="greeting">
+    <div class="greeting-main" wmAnimate="fadeInUp" aos speed="normal">
+        <div class="greeting-text-div">
+            <div>
+                <h1 class="greeting-text">
+                    {{greeting.title}}
+                    <span class="wave-emoji">👋</span>
+                </h1>
+                <p class="greeting-text-p subTitle">{{greeting.subTitle}}</p>
+                <!-- <app-social-media></app-social-media> -->
+                <div class="button-greeting-div">
+                    <!--        button-->
+                    <div>
+                        <a class="main-button" href="#contact">Contact me</a>
+                    </div>
+                    <div>
+                        <a class="main-button" href={{greeting.resumeLink}}>See my resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="greeting-image-div">
+            <img src="https://sateesh2020.github.io/static/media/manOnTable.8973e2b1.svg" alt="Man sitting on table">
+        </div>
+    </div>
+</div>
